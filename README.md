@@ -1,14 +1,15 @@
 # Chip8
-### Emulator for the CHIP-8, a classic 8-bit programming language with just 35 instructions.
-
+### Interpreter for CHIP-8, a classic programming language that is run by a stack based virtual machine.
 This project is a joint effort between [lilyQuartz](https://github.com/lilyQuartz) and [Curtis Babnik](https://github.com/cbabnik).
-
-The system (as currently planned) is outlined in this UML Diagram.
-![title](https://github.com/lilyQuartz/Chip8/blob/master/diagrams/Generic%20Diagram.png)
 
 ## Testing
 Testing is implemented using Googletest.
 https://github.com/google/googletest
+
+## Future Extensions
+* debugger
+* assembler and disassembler
+* SCHIP
 
 ## Resources
 * http://mattmik.com/files/chip8/mastering/chip8.html
