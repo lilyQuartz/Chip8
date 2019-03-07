@@ -6,9 +6,6 @@
 class Timer {
 public:
    void countdown();
-   byte get();
-   void set(byte);
-protected:
    byte time = 0;
 };
 
